@@ -8,7 +8,7 @@
 // Available variants: "default", happy", "sleep", "super", // TODO: Implement
 lucy_variant = "default";
 
-$fn = 20; // TODO: Change back to 100 - 200
+$fn = $preview ? 32 : 64;
 
 // Branding colors are taken from:
 // https://gleam.run/branding/
